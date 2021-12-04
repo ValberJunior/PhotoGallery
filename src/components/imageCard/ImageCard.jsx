@@ -4,10 +4,13 @@ import { Modal } from '../../components';
 import { Avatar, Close, ButtonClose, Details, ImageElement, ImageSelected, Title } from './styles'
 import NotImage from '../../assets/unnamed.gif';
 
+//Material UI
 import { Button, Icon } from '@material-ui/core';
 import CloseIcon from '@mui/icons-material/Close';
 
+//React Lazy-Load-Css
 import 'react-lazy-load-image-component/src/effects/blur.css';
+
 
 
 export default function ImageCard({image}) {
@@ -55,7 +58,8 @@ export default function ImageCard({image}) {
             <span  onClick={onShowModal}>
             <ImageElement 
             src={image.src.medium?image.src.medium:
-                NotImage} alt='Images Results'
+                NotImage} 
+                alt='Images Results'
                 effect="blur"
             />
             </span>

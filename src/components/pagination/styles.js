@@ -29,14 +29,14 @@ export const Button = styled.button`
 
 width: 180px;
 
-padding: 15px;
+padding: 10px;
 
 margin: 15px;
 
 background-color: white;
 color: ${({theme:{colors}})=>colors.color1};
 
-border: 2px solid ${({theme:{colors}})=>colors.color1} ;
+border: 1px solid ${({theme:{colors}})=>colors.color1} ;
 outline: none;
 
 cursor: pointer;

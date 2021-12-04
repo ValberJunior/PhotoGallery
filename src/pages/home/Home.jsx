@@ -16,7 +16,6 @@ import { PhotoContext } from '../../context';
 import { getPhotos } from '../../services';
 
 
-
 //Theme search Material UI
 const useStyles = makeStyles((theme) => ({
     root: {

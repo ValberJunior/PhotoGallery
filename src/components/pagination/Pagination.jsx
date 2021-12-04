@@ -30,18 +30,16 @@ export default function PaginationRounded(props) {
   const next = async(arg)=>{
     const res = await getNextPage(arg);
     setNextPage(res.data.next_page);
-    setPrevPage(res.data.prev_page)
-    console.log(res.data);
-    setPhotos(res.data.photos)
-    setData(res.data)
+    setPrevPage(res.data.prev_page);
+    setPhotos(res.data.photos);
+    setData(res.data);
   }
 
   const prev = async(arg)=>{
     const res = await getPrevPage(arg);
     setPrevPage(res.data.prev_page);
-    console.log(res.data);
-    setPhotos(res.data.photos)
-    setData(res.data)
+    setPhotos(res.data.photos);
+    setData(res.data);
   }
 
 
