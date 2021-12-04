@@ -1,6 +1,9 @@
 import styled from "styled-components";
 
-export const ImageElement = styled.img`
+//REACT LAZY LOAD
+import { LazyLoadImage } from 'react-lazy-load-image-component';
+
+export const ImageElement = styled(LazyLoadImage)`
 
 width: 96%;
 height: 400px;
@@ -24,7 +27,7 @@ transitions: all 0.3 linear;
 
 export const ImageSelected = styled.img`
 
-max-width: 80vw;
+max-width: 75vw;
 max-height: 70vh; 
 
 min-width: 50vw;

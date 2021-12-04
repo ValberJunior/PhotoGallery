@@ -1,6 +1,6 @@
 import React, { useEffect, useState , useContext } from 'react'
 import { Wrapper , SearchSection, Banner } from './styles';
-import { Navbar, ImagesList , Footer, Pagination  } from '../../components';
+import { Navbar, ImagesList , Footer, Pagination, LoadingAnimation  } from '../../components';
 
 //Material UI
 import Paper from "@material-ui/core/Paper";
@@ -13,7 +13,9 @@ import { makeStyles } from "@material-ui/core/styles";
 import { PhotoContext } from '../../context';
 
 //PEXELS API
-import { getPhotos } from '../../services'
+import { getPhotos } from '../../services';
+
+
 
 //Theme search Material UI
 const useStyles = makeStyles((theme) => ({
@@ -42,6 +44,8 @@ export default function Home(props) {
     const { setPhotos, setPages , setData} = useContext(PhotoContext);
 
     const [searchTerm, setSearchTerm] = useState('');
+
+    const [received, setReceived]=useState(false)
  
 
     const classes = useStyles();
@@ -56,10 +60,10 @@ export default function Home(props) {
     const loadImages = async (searchTerm)=>{
         const res = await getPhotos(searchTerm);
 
-        console.log(res.data);
         setPhotos(res.data.photos);
         setPages(Math.ceil(res.data.total_results/res.data.per_page));
         setData(res.data);
+        setReceived(true);
           }
 
     const handleSearch = ()=>{
@@ -109,12 +113,15 @@ export default function Home(props) {
                   </Paper>
                 </SearchSection>
                   
-             </Banner>
+              </Banner>
 
-            <ImagesList id='startPhotos' />
+             {received?<>     
+              <ImagesList/>
 
-           <Pagination/> 
+              <Pagination/>
+             </>:<LoadingAnimation/>}
 
+          
          </main>
          
         <Footer/>
