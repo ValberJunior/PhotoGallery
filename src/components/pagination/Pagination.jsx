@@ -49,10 +49,12 @@ export default function PaginationRounded(props) {
       //Pagination
 
       // //Next
-      const next_Page = ()=>{ next(nextPage); window.scrollTo(0,500)};
+      const next_Page = ()=>{ next(nextPage); 
+        setTimeout(()=>{window.scrollTo(0,500)}, 400)};
       
       // //Prev
-       const prev_Page = ()=>{prev(prevPage); window.scrollTo(0,500)};
+       const prev_Page = ()=>{prev(prevPage); 
+        setTimeout(()=>{window.scrollTo(0,500)}, 400)};
 
 
 
