@@ -111,7 +111,7 @@ export default function Home(props) {
                   
              </Banner>
 
-            <ImagesList />
+            <ImagesList id='startPhotos' />
 
            <Pagination/> 
 
