@@ -4,16 +4,21 @@ import { GridImages } from './styles'
 
 //Context API
 import { PhotoContext } from '../../context';
+import { ErrorAnimation } from '..';
 
 
 export default function ImagesList(props) {
 
-    const { photos } = useContext(PhotoContext);
+    const { photos, pages } = useContext(PhotoContext);
 
     return (
-        <GridImages>
+        <>
+        {pages>=1?<GridImages>
             {photos.map((item)=>{
             return <span key={item.id}><ImageCard image={item}/></span>})}
-        </GridImages>
+        </GridImages>:
+
+        <ErrorAnimation/>}
+        </>
     )
 }

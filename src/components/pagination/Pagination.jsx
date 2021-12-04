@@ -57,6 +57,8 @@ export default function PaginationRounded(props) {
 
 
   return (
+    <>
+    {pages>1?
     <PaginationSection>
           <Text>
             Page {data.page} of {pages}
@@ -66,7 +68,9 @@ export default function PaginationRounded(props) {
             {data.page===pages?null:<Button onClick={next_Page} disabled={data.page===pages?true:false}> NEXT <ArrowForwardIcon/> </Button>}
           </ButtonGroup>
 
-    </PaginationSection>
+    </PaginationSection>:null}
+
+    </>
   );
 }
 
