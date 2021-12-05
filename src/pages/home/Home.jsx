@@ -51,7 +51,7 @@ export default function Home(props) {
 
 
     useEffect(()=>{
-      const arg = localStorage.getItem('PERSIST_STATE');
+      const arg = localStorage.getItem('PERSIST_STATE')|| 'nature';
       loadImages(arg);
   },[searchTerm])
 
