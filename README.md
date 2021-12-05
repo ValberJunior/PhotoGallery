@@ -4,18 +4,18 @@
 https://user-images.githubusercontent.com/84424883/144758174-36786edc-905f-4a01-a429-d75d06a7e005.mp4
 
 
-
+<br>
 ## Tecnologias aplicadas:
 
 <div style="display=inline-block">
 <img src="https://cdn.iconscout.com/icon/free/png-256/javascript-2752148-2284965.png" alt="javascript"width="50px" height="50px" >
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original-wordmark.svg" alt="React" width="50px" height="50px" >
  </div>
- 
+ <br><br>
  
 
 ### deploy 👉 https://photogalleryreact.netlify.app/
-
+<br><br>
 ### Detalhes do projeto:
 ![print1](https://user-images.githubusercontent.com/84424883/144758806-be20ace5-a1b8-430f-90f8-ff5b1c0516c6.png)
 <br><br><br>
