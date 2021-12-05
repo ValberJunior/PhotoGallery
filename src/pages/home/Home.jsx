@@ -44,6 +44,8 @@ export default function Home(props) {
 
     const [searchTerm, setSearchTerm] = useState('');
 
+    const [query, setQuery] = useState('');
+
     const [received, setReceived]=useState(false)
  
 
@@ -67,16 +69,17 @@ export default function Home(props) {
 
     const handleSearch = ()=>{
       localStorage.setItem('PERSIST_STATE',searchTerm);
+      setSearchTerm(query)
     }
 
     const handleInput = (event)=>{
-        setSearchTerm(event.target.value);
+        setQuery(event.target.value);
         event.stopPropagation();
     }
 
     const handleKeyPress = (e) => {
         if (e.key === 'Enter') {
-          setSearchTerm(searchTerm);
+          setSearchTerm(query);
         }
       };
 
@@ -98,7 +101,7 @@ export default function Home(props) {
                               className={classes.input}
                               onChange={handleInput}
                               onKeyPress={handleKeyPress}
-                              value={searchTerm}
+                              value={query}
                               id='search'
                           />
                           <IconButton
