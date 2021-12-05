@@ -19,15 +19,15 @@ https://user-images.githubusercontent.com/84424883/144758174-36786edc-905f-4a01-
 
 ### Detalhes do projeto:
 ![print1](https://user-images.githubusercontent.com/84424883/144758806-be20ace5-a1b8-430f-90f8-ff5b1c0516c6.png)
-<br>
+<br><br><br>
 ![print2](https://user-images.githubusercontent.com/84424883/144758818-0c56e1fb-438d-40fe-a596-46345a7778ee.png)
-<br>
+<br><br><br>
 ![print3](https://user-images.githubusercontent.com/84424883/144758825-bf3446bf-a84c-447b-9e03-3ebe42200ade.png)
-<br>
+<br><br><br>
 ![print4](https://user-images.githubusercontent.com/84424883/144758839-47b7185c-639a-42a5-bf3f-058a40ffc1e7.png)
-<br>
+<br><br><br>
 ![print5](https://user-images.githubusercontent.com/84424883/144758841-b296a387-b6a2-4b8e-8564-df657f26b5e4.png)
-<br>
+<br><br><br>
 ![print6](https://user-images.githubusercontent.com/84424883/144758850-d25e14bd-4e01-4697-9e41-657ac7e8affd.png)
 <br><br>
 
