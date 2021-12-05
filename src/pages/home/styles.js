@@ -1,6 +1,6 @@
 import styled from "styled-components";
 import BannerImg from '../../assets/banner.gif';
-
+import BannerImg2 from '../../assets/banner2.gif';
 
 
 export const Wrapper = styled.div`
@@ -34,8 +34,7 @@ margin-top:60px;
 position: relative;
 
 @media(max-width: 767px) {
-    background-size: cover;
-    background-attachment: auto;
+    background-image: url(${BannerImg2});
  }
 
 
