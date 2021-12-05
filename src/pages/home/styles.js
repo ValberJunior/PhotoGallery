@@ -36,7 +36,7 @@ position: relative;
 @media(max-width: 767px) {
     background-image: url(${BannerImg2});
     background-size: auto;
-    background-attachment: auto;
+    background-attachment: fixed;
  }
 
 
