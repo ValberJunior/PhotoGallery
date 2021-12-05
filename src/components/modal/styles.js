@@ -40,7 +40,7 @@ box-sizing: border-box;
 
 @media(max-width: 767px) {
     width: 95vw;
-    flex-direction: column-reverse;
+    flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
  }

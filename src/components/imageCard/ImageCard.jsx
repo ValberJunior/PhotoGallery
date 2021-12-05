@@ -4,6 +4,7 @@ import { Modal } from '../../components';
 import { Avatar, Close, ButtonClose, Details, ImageElement, ImageSelected, Title } from './styles'
 import NotImage from '../../assets/unnamed.gif';
 
+
 //Material UI
 import { Button, Icon } from '@material-ui/core';
 import CloseIcon from '@mui/icons-material/Close';
@@ -13,9 +14,12 @@ import 'react-lazy-load-image-component/src/effects/blur.css';
 
 
 
+
 export default function ImageCard({image}) {
 
     const [ open, setOpen ] = useState(false);
+   
+
 
     //Modal
     const onHideModal = ()=>{ setOpen(false); };  
@@ -26,7 +30,7 @@ export default function ImageCard({image}) {
       return ( <Modal open={open} onClose={onHideModal}> 
 
 
-             <ImageSelected src={image.src.large2x} alt="Selected Item"/>
+           <ImageSelected src={image.src.large2x} alt="Selected Item"  effect="blur"/>
             
             <Details>
                 <Avatar style={{background: image.avg_color}} >{image.photographer.split(" ").map(string=>string[0]).join("").toUpperCase()}</Avatar>

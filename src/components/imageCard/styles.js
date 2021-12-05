@@ -25,7 +25,7 @@ transitions: all 0.3 linear;
     }
 `;
 
-export const ImageSelected = styled.img`
+export const ImageSelected = styled(LazyLoadImage)`
 
 max-width: 75vw;
 max-height: 70vh; 
@@ -38,7 +38,6 @@ max-height: 35vh;
 
 min-width: 50vw;
 
-order:1;
 }
 
 `;
@@ -61,6 +60,7 @@ text-align: center;
 @media(max-width: 767px) {
 
     padding: 20px 15px;
+    order: 3;
  }
 
 `;
@@ -125,7 +125,8 @@ justify-self: flex-start;
     justify-content: flex-end ;
     align-self: flex-end;
     padding-top: 15px;    
-    order:1;
+
+    order: -1;
 }
 
 
