@@ -33,11 +33,6 @@ margin-top:60px;
 
 position: relative;
 
-@media(max-width: 767px) {
-    background-size: auto;
-    background-attachment: fixed;
- }
-
 
 padding: 20px;
 
