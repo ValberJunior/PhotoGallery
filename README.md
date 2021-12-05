@@ -5,8 +5,8 @@ https://user-images.githubusercontent.com/84424883/144758174-36786edc-905f-4a01-
 
 
 <br>
-- Tecnologias aplicadas:
-<br>
+<h2>Tecnologias aplicadas:</h2>
+<br><br>
 <div style="display=inline-block">
 <img src="https://cdn.iconscout.com/icon/free/png-256/javascript-2752148-2284965.png" alt="javascript"width="50px" height="50px" style="margin-10px;">
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original-wordmark.svg" alt="React" width="50px" height="50px" >
