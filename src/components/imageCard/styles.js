@@ -27,7 +27,7 @@ transitions: all 0.3 linear;
 
 export const ImageSelected = styled(LazyLoadImage)`
 
-max-width: 75vw;
+max-width: 60vw;
 max-height: 70vh; 
 
 min-width: 50vw;
