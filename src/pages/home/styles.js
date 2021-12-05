@@ -1,6 +1,6 @@
 import styled from "styled-components";
 import BannerImg from '../../assets/banner.gif';
-import BannerImg2 from '../../assets/banner2.gif';
+import BannerImg2 from '../../assets/banner2.png';
 
 
 export const Wrapper = styled.div`
