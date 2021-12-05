@@ -43,6 +43,10 @@ align-items: flex-start;
 padding: 20px;
 padding-top: 100px;
 
+&:hover{
+    color: white;
+}
+
 @media(max-width: 1200px) {
     grid-template-columns: 1fr 1fr 3fr;
 }
@@ -80,6 +84,10 @@ height: 50px;
 cursor: pointer;
 
 margin:5px;
+
+&:hover{
+    opacity: 0.8;
+}
 
 `;
 
