@@ -1,5 +1,6 @@
 import styled from "styled-components";
 import BannerImg from '../../assets/banner.gif';
+import BannerImg2 from '../../assets/banner2.gif';
 
 
 export const Wrapper = styled.div`
@@ -31,6 +32,11 @@ align-items: center;
 margin-top:60px;
 
 position: relative;
+
+@media(max-width: 767px) {
+    background-image: url(${BannerImg2});
+    background-attachment: none;
+ }
 
 
 padding: 20px;
