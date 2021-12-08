@@ -20,9 +20,6 @@ https://user-images.githubusercontent.com/84424883/144758174-36786edc-905f-4a01-
 
 ![screencapture-photogalleryreact-netlify-app-2021-12-08-10_23_43](https://user-images.githubusercontent.com/84424883/145215962-1037cd60-c534-47ea-9dfe-e6a77077d277.png)
 
-
-<br><br><br>
-![print4](https://user-images.githubusercontent.com/84424883/144758839-47b7185c-639a-42a5-bf3f-058a40ffc1e7.png)
 <br><br><br>
 ![print5](https://user-images.githubusercontent.com/84424883/144758841-b296a387-b6a2-4b8e-8564-df657f26b5e4.png)
 <br><br><br>
