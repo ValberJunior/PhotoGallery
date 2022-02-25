@@ -35,7 +35,7 @@ export default function Footer() {
 
             </div>
 
-            <div>
+            <div style={{text-align: center}}>
                 <Title>
                   API used in the project
                 </Title>
